@@ -4,8 +4,8 @@ from arcpy import da
 #from agrc import parse_address
 
 
-sgid10 = r'Database Connections\SGID10.sde'
-#sgid10 = r'Database Connections\dc_agrc@SGID10@gdb10.agrc.utah.gov.sde'
+#sgid10 = r'Database Connections\SGID10.sde'
+sgid10 = r'Database Connections\dc_agrc@SGID10@gdb10.agrc.utah.gov.sde'
 sgid10_GEO = r'C:\ZBECK\BlueStakes\stagingBS.gdb\SGID10_GEOGRAPHIC'
 stageDB = r'C:\ZBECK\BlueStakes\stagingBS.gdb'
 schemaDB = r'C:\ZBECK\BlueStakes\schemaBS.gdb'
@@ -28,9 +28,6 @@ fipsDict = {'Beaver': '49001', 'BoxElder': '49003', 'Cache': '49005', 'Carbon': 
            'Piute': '49031', 'Rich': '49033', 'SaltLake': '49035', 'SanJuan': '49037', 'Sanpete': '49039', \
            'Sevier': '49041', 'Summit': '49043', 'Tooele': '49045', 'Uintah': '49047', 'Utah': '49049', \
            'Wasatch': '49051', 'Washington': '49053', 'Wayne': '49055', 'Weber': '49057'}
-
-##fipsNum = ['49015', '49027', '49035', '49037', '49049', '49057']
-##fipsDict = {'Emery': '49015', 'Millard': '49027', 'SaltLake': '49035', 'SanJuan': '49037', 'Utah': '49049', 'Weber': '49057'}
 
 
 # fipsNum = ['49035']

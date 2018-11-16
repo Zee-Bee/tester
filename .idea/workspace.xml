@@ -27,27 +27,28 @@
       <file leaf-file-name="BlueStakesETL.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BlueStakesETL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4188627" vertical-offset="3421" max-vertical-offset="4998">
-              <caret line="1833" column="69" selection-start-line="1833" selection-start-column="69" selection-end-line="1833" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.13709678" vertical-offset="0" max-vertical-offset="5270">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <element signature="e#3382#7809#0" expanded="false" />
-                <element signature="e#7837#10734#0" expanded="false" />
-                <element signature="e#10754#26854#0" expanded="false" />
-                <element signature="e#26883#28193#0" expanded="false" />
-                <element signature="e#31080#35855#0" expanded="false" />
-                <element signature="e#35879#38901#0" expanded="false" />
-                <element signature="e#38926#40585#0" expanded="false" />
-                <element signature="e#40609#43938#0" expanded="false" />
-                <element signature="e#43962#45563#0" expanded="false" />
-                <element signature="e#45596#46873#0" expanded="false" />
-                <element signature="e#46897#48306#0" expanded="false" />
-                <element signature="e#48329#49985#0" expanded="false" />
-                <element signature="e#50010#51283#0" expanded="false" />
-                <element signature="e#51309#55973#0" expanded="false" />
-                <element signature="e#55996#60164#0" expanded="false" />
-                <element signature="e#60191#62208#0" expanded="false" />
-                <element signature="e#64951#65173#0" expanded="false" />
+                <element signature="e#3186#7613#0" expanded="false" />
+                <element signature="e#10558#26658#0" expanded="false" />
+                <element signature="e#26687#27997#0" expanded="false" />
+                <element signature="e#30884#35659#0" expanded="false" />
+                <element signature="e#35683#38705#0" expanded="false" />
+                <element signature="e#38730#40389#0" expanded="false" />
+                <element signature="e#40413#43742#0" expanded="false" />
+                <element signature="e#43766#45367#0" expanded="false" />
+                <element signature="e#45400#46677#0" expanded="false" />
+                <element signature="e#46701#48110#0" expanded="false" />
+                <element signature="e#48133#49789#0" expanded="false" />
+                <element signature="e#49814#51087#0" expanded="false" />
+                <element signature="e#51113#55777#0" expanded="false" />
+                <element signature="e#55800#59968#0" expanded="false" />
+                <element signature="e#59995#62012#0" expanded="false" />
+                <element signature="e#62041#63388#0" expanded="false" />
+                <element signature="e#63429#64729#0" expanded="false" />
+                <element signature="e#64755#64977#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -63,10 +64,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="38" />
-    <option name="width" value="1037" />
-    <option name="height" value="883" />
+    <option name="x" value="230" />
+    <option name="width" value="1370" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -291,7 +291,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="38" width="1037" height="883" extended-state="0" />
+    <frame x="230" y="0" width="1370" height="907" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -344,50 +344,80 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#3382#7809#0" expanded="false" />
-            <element signature="e#7837#10734#0" expanded="false" />
-            <element signature="e#10754#26854#0" expanded="false" />
-            <element signature="e#26883#28193#0" expanded="false" />
-            <element signature="e#31080#35855#0" expanded="false" />
-            <element signature="e#35879#38901#0" expanded="false" />
-            <element signature="e#38926#40585#0" expanded="false" />
-            <element signature="e#40609#43938#0" expanded="false" />
-            <element signature="e#43962#45563#0" expanded="false" />
-            <element signature="e#45596#46873#0" expanded="false" />
-            <element signature="e#46897#48306#0" expanded="false" />
-            <element signature="e#48329#49985#0" expanded="false" />
-            <element signature="e#50010#51283#0" expanded="false" />
-            <element signature="e#51309#55973#0" expanded="false" />
-            <element signature="e#55996#60164#0" expanded="false" />
-            <element signature="e#60191#62208#0" expanded="false" />
-            <element signature="e#64951#65173#0" expanded="false" />
+            <element signature="e#3186#7613#0" expanded="false" />
+            <element signature="e#10558#26658#0" expanded="false" />
+            <element signature="e#26687#27997#0" expanded="false" />
+            <element signature="e#30884#35659#0" expanded="false" />
+            <element signature="e#35683#38705#0" expanded="false" />
+            <element signature="e#38730#40389#0" expanded="false" />
+            <element signature="e#40413#43742#0" expanded="false" />
+            <element signature="e#43766#45367#0" expanded="false" />
+            <element signature="e#45400#46677#0" expanded="false" />
+            <element signature="e#46701#48110#0" expanded="false" />
+            <element signature="e#48133#49789#0" expanded="false" />
+            <element signature="e#49814#51087#0" expanded="false" />
+            <element signature="e#51113#55777#0" expanded="false" />
+            <element signature="e#55800#59968#0" expanded="false" />
+            <element signature="e#59995#62012#0" expanded="false" />
+            <element signature="e#62041#63388#0" expanded="false" />
+            <element signature="e#63429#64729#0" expanded="false" />
+            <element signature="e#64755#64977#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlueStakesETL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4188627" vertical-offset="3421" max-vertical-offset="4998">
-          <caret line="1833" column="69" selection-start-line="1833" selection-start-column="69" selection-end-line="1833" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#3382#7809#0" expanded="false" />
-            <element signature="e#7837#10734#0" expanded="false" />
-            <element signature="e#10754#26854#0" expanded="false" />
-            <element signature="e#26883#28193#0" expanded="false" />
-            <element signature="e#31080#35855#0" expanded="false" />
-            <element signature="e#35879#38901#0" expanded="false" />
-            <element signature="e#38926#40585#0" expanded="false" />
-            <element signature="e#40609#43938#0" expanded="false" />
-            <element signature="e#43962#45563#0" expanded="false" />
-            <element signature="e#45596#46873#0" expanded="false" />
-            <element signature="e#46897#48306#0" expanded="false" />
-            <element signature="e#48329#49985#0" expanded="false" />
-            <element signature="e#50010#51283#0" expanded="false" />
-            <element signature="e#51309#55973#0" expanded="false" />
-            <element signature="e#55996#60164#0" expanded="false" />
-            <element signature="e#60191#62208#0" expanded="false" />
-            <element signature="e#64951#65173#0" expanded="false" />
+            <element signature="e#3186#7613#0" expanded="false" />
+            <element signature="e#10558#26658#0" expanded="false" />
+            <element signature="e#26687#27997#0" expanded="false" />
+            <element signature="e#30884#35659#0" expanded="false" />
+            <element signature="e#35683#38705#0" expanded="false" />
+            <element signature="e#38730#40389#0" expanded="false" />
+            <element signature="e#40413#43742#0" expanded="false" />
+            <element signature="e#43766#45367#0" expanded="false" />
+            <element signature="e#45400#46677#0" expanded="false" />
+            <element signature="e#46701#48110#0" expanded="false" />
+            <element signature="e#48133#49789#0" expanded="false" />
+            <element signature="e#49814#51087#0" expanded="false" />
+            <element signature="e#51113#55777#0" expanded="false" />
+            <element signature="e#55800#59968#0" expanded="false" />
+            <element signature="e#59995#62012#0" expanded="false" />
+            <element signature="e#62041#63388#0" expanded="false" />
+            <element signature="e#63429#64729#0" expanded="false" />
+            <element signature="e#64755#64977#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueStakesETL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13709678" vertical-offset="0" max-vertical-offset="5270">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#3186#7613#0" expanded="false" />
+            <element signature="e#10558#26658#0" expanded="false" />
+            <element signature="e#26687#27997#0" expanded="false" />
+            <element signature="e#30884#35659#0" expanded="false" />
+            <element signature="e#35683#38705#0" expanded="false" />
+            <element signature="e#38730#40389#0" expanded="false" />
+            <element signature="e#40413#43742#0" expanded="false" />
+            <element signature="e#43766#45367#0" expanded="false" />
+            <element signature="e#45400#46677#0" expanded="false" />
+            <element signature="e#46701#48110#0" expanded="false" />
+            <element signature="e#48133#49789#0" expanded="false" />
+            <element signature="e#49814#51087#0" expanded="false" />
+            <element signature="e#51113#55777#0" expanded="false" />
+            <element signature="e#55800#59968#0" expanded="false" />
+            <element signature="e#59995#62012#0" expanded="false" />
+            <element signature="e#62041#63388#0" expanded="false" />
+            <element signature="e#63429#64729#0" expanded="false" />
+            <element signature="e#64755#64977#0" expanded="false" />
           </folding>
         </state>
       </provider>
